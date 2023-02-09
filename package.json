@@ -1,6 +1,6 @@
 {
   "private": true,
-  "author": "liwenan <liwenan@sinochem.com>",
+  "author": "liwenan <lwa950804@aliyun.com>",
   "scripts": {
     "build": "umi build",
     "dev": "umi dev",
@@ -8,6 +8,11 @@
     "prepare": "husky install",
     "setup": "umi setup",
     "start": "npm run dev"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    }
   },
   "dependencies": {
     "antd": "^5.2.0",
@@ -20,6 +25,8 @@
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "@umijs/plugins": "^4.0.50",
+    "babel-eslint": "^10.1.0",
+    "cz-customizable": "^7.0.0",
     "eslint": "^8.33.0",
     "husky": "^8",
     "lint-staged": "^13",

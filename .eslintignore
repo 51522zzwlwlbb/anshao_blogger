@@ -1,0 +1,5 @@
+/build/**
+/node_modules/**
+/dist/**
+/docs/**
+# 忽略当前目录下为js的文件的语法检查
